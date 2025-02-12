@@ -1,0 +1,174 @@
+/* styles.css */
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/030/663/652/large_2x/cake-with-transparent-background-high-quality-ultra-hd-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    color: #0c0c0c;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cl {
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #ff4081;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Georgia', serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/663/652/large_2x/cake-with-transparent-background-high-quality-ultra-hd-free-photo.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.cl h2 {
+    font-size: 2em;
+    color: #ff4081;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.cl h3, .cl h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cl p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+article.post h2,
+aside h1 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+article.post small {
+    display: block;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #666666;
+}
+
+article.post p {
+    text-align: left;
+    line-height: 1.6;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    margin-top: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.1em;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: small;
+    color: #666666;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Add hover effects for links */
+a {
+    color: #ff4081;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e91e63;
+}
+
+/* Add transition effects to buttons */
+button {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+
+/* Style form inputs */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+.cake-image {
+    display: none;
+    margin-top: 20px;
+}
+
+.cake-image:target {
+    display: block;
+}
